@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38d5be7a-448b-4d27-bbff-5be56d825347" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Qt Form" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kqL2PsdWgVJHYGh7EhnTuiM9il" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="thatprojectagain" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="thatprojectagain" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="pyqt-gtr-tuner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyqt-gtr-tuner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2">
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_PyUIC .ui to .py" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_PyUIC .ui to .py 2" />
+      </method>
+    </configuration>
+    <configuration name="tune" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyqt-gtr-tuner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/tune.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="pyqt-gtr-tuner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="pyqt-gtr-tuner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="pyqt-gtr-tuner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="pyqt-gtr-tuner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="pyqt-gtr-tuner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tune" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38d5be7a-448b-4d27-bbff-5be56d825347" name="Default Changelist" comment="" />
+      <created>1606422966250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606422966250</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="233" key="#Inspections" timestamp="1607901374521">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="586" y="233" key="#Inspections/0.30.1920.1050@0.30.1920.1050" timestamp="1607901374521" />
+    <state x="414" y="209" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607534661029">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="414" y="209" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1607534661029" />
+    <state x="733" y="356" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607786667428">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="733" y="356" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1607786667428" />
+    <state x="733" y="417" key="#com.intellij.ide.actionMacro.EditMacrosDialog" timestamp="1606683996298">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="733" y="417" key="#com.intellij.ide.actionMacro.EditMacrosDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1606683996298" />
+    <state x="1368" y="273" width="440" height="617" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1606683865659">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1368" y="273" width="440" height="617" key="#com.intellij.ide.macro.MacrosDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1606683865659" />
+    <state x="733" y="396" width="454" height="497" key="#com.intellij.tools.ToolEditorDialog" timestamp="1607534658418">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="733" y="396" width="454" height="497" key="#com.intellij.tools.ToolEditorDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1607534658418" />
+    <state x="928" y="460" key="FileChooserDialogImpl" timestamp="1606698424105">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="928" y="460" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1606698424105" />
+    <state width="1896" height="279" key="GridCell.Tab.0.bottom" timestamp="1607989164203">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1896" height="279" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1607989164203" />
+    <state width="1896" height="279" key="GridCell.Tab.0.center" timestamp="1607989164203">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1896" height="279" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1607989164203" />
+    <state width="1896" height="279" key="GridCell.Tab.0.left" timestamp="1607989164203">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1896" height="279" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1607989164203" />
+    <state width="1896" height="279" key="GridCell.Tab.0.right" timestamp="1607989164203">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1896" height="279" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1607989164203" />
+    <state width="1896" height="350" key="GridCell.Tab.1.bottom" timestamp="1607960256678">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1896" height="350" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1607960256678" />
+    <state width="1896" height="350" key="GridCell.Tab.1.center" timestamp="1607960256678">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1896" height="350" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1607960256678" />
+    <state width="1896" height="350" key="GridCell.Tab.1.left" timestamp="1607960256678">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1896" height="350" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1607960256678" />
+    <state width="1896" height="350" key="GridCell.Tab.1.right" timestamp="1607960256678">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1896" height="350" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1607960256678" />
+    <state x="500" y="191" key="SettingsEditor" timestamp="1607270402487">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="500" y="191" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1607270402487" />
+    <state x="855" y="301" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1607534658650">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="855" y="301" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.30.1920.1050@0.30.1920.1050" timestamp="1607534658650" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1607980995996">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1607980995996" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="arrays.TUNINGS" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
