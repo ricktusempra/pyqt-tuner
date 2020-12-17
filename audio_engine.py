@@ -26,7 +26,7 @@ def note_to_fftbin(n):
 
 
 NOTE_MIN = 67  # 3 + 4 * 12  # 60 = c4
-NOTE_MAX = 70  # 5 + 6 * 12  # 69 = a4
+NOTE_MAX = 71  # 5 + 6 * 12  # 69 = a4
 imin = max(0, int(np.floor(note_to_fftbin(NOTE_MIN-1))))
 imax = min(SAMPLES_PER_FFT, int(np.ceil(note_to_fftbin(NOTE_MAX+1))))
 window = 0.5 * (1 - np.cos(np.linspace(0, 2 * np.pi, SAMPLES_PER_FFT, False)))  # hanning window for signal
@@ -79,44 +79,22 @@ def play_note(name, wait=0):
     play_sample(data, wait)
 
 
+def set_tune_note(note):
+    global NOTE_MIN
+    global NOTE_MAX
+    global imin
+    global imax
+
+    NOTE_MIN = note - 1
+    NOTE_MAX = note + 1
+
+    imin = max(0, int(np.floor(note_to_fftbin(NOTE_MIN - 1))))
+    imax = min(SAMPLES_PER_FFT, int(np.ceil(note_to_fftbin(NOTE_MAX + 1))))
+
+
 p = pyaudio.PyAudio()
 stream = p.open(format=pyaudio.paInt16,
                 channels=1,
                 rate=sd.default.samplerate,
                 input=True,
                 frames_per_buffer=FRAME_SIZE,)
-
-
-'''
- def frequency_spectrum(sample, samplerate):
-    sample = sample - np.average(sample)
-    size = len(sample)
-    print(size)
-    freqs_empty = np.arange(size)           # name??
-    time_arr = size / float(samplerate)     # name??
-    freq_arr = freqs_empty / float(time_arr)
-
-    freq_arr = freq_arr[range(size // 2)]
-
-    sample_fft = np.fft.fft(np.fft.rfft(sample))
-    sample_fft = sample_fft[range(size // 2)]
-
-    return freq_arr, abs(sample_fft)
-# def frequency_plot(data, samplerate):
-
-    y = data
-
-    t = np.arange(len(y)) / float(samplerate)
-    play_sample(y, 0)
-
-    plt.plot(t, y)
-    plt.xlabel('t')
-    plt.ylabel('y')
-
-    frq, s_fft = frequency_spectrum(y, samplerate)
-    plt.subplot(2, 1, 2)
-    plt.plot(frq, s_fft, 'b')
-    plt.xlabel('Freq (Hz)')
-    plt.ylabel('|X(freq)|')
-    plt.tight_layout()
-'''

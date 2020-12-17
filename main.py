@@ -16,7 +16,8 @@ class MainWindow(QMainWindow, mainform.Ui_MainWindow):
     btns_down_array = []
     btns_play_array = []
     current_tune = []
-    s = aeng.sd.rec(11050)
+    current_note = (3, 4)
+    current_note_midi = 64
     frequency_thread = threading.Thread()
     test_mode = False
 
@@ -69,18 +70,20 @@ class MainWindow(QMainWindow, mainform.Ui_MainWindow):
 
         for btn in self.btns_up_array:
             btn.clicked.connect(self.switch_note)
+            btn.clicked.connect(self.play_note)
+            btn.clicked.connect(self.set_tune_note)
 
         for btn in self.btns_down_array:
             btn.clicked.connect(self.switch_note)
+            btn.clicked.connect(self.play_note)
+            btn.clicked.connect(self.set_tune_note)
 
         for btn in self.btns_play_array:
             btn.clicked.connect(self.play_note)
+            btn.clicked.connect(self.set_tune_note)
 
         aeng.TUNE_NOTE_NUM = [note[1] + (note[0] + 1) * 12 for note in self.current_tune]
         aeng.TUNE_FREQ = [aeng.number_to_freq(num) for num in aeng.TUNE_NOTE_NUM]
-
-        print(aeng.TUNE_FREQ)
-        print(aeng.TUNE_NOTE_NUM)
 
         global frequency_thread
         frequency_thread = threading.Thread(target=self.frequency_detect, daemon=True)
@@ -105,7 +108,9 @@ class MainWindow(QMainWindow, mainform.Ui_MainWindow):
             self.notes_array[i].setToolTip(
                 Arrays.NOTE_NAMES_EN[self.current_tune[i][1]] + ", " + Arrays.OCTAVE_NAMES[self.current_tune[i][0]]
             )
-            print(Arrays.NOTE_NAMES_EN[self.current_tune[i][1]] + ", " + Arrays.OCTAVE_NAMES[self.current_tune[i][0]])
+        self.current_note = (self.current_tune[0][0], self.current_tune[0][1])
+        self.set_tune_note(1)
+
 
     def show_tuning_from_btns(self):
         for i in range(len(self.current_tune)):
@@ -126,8 +131,6 @@ class MainWindow(QMainWindow, mainform.Ui_MainWindow):
             self.instrument = 1
         elif sender == "ukeRadioBtn":
             self.instrument = 2
-        elif sender == "None":
-            self.instrument = 0
         else:
             self.instrument = 0
         self.tuningSelectList.clear()
@@ -161,13 +164,25 @@ class MainWindow(QMainWindow, mainform.Ui_MainWindow):
             self.current_tune[num][0] = 8
             self.current_tune[num][1] = 3
             QMessageBox.about(self, 'Warning', 'It\'s time to stop!')
+        self.current_note = self.current_tune[num]
         self.show_tuning_from_btns()
 
     def play_note(self):
         num = int(self.sender().objectName()[7:8]) - 1
-        path = 'notes/' + str(self.current_tune[num][0]) + '_' + str(self.current_tune[num][1]) + '.ogg'
-        self.label_4.setText(path)
+        self.current_note = (self.current_tune[num][0], self.current_tune[num][1])
+        path = 'notes/' + str(self.current_note[0]) + '_' + str(self.current_note[1]) + '.ogg'
         aeng.play_note(path)
+
+    def set_tune_note(self, num):
+        if num == 0:
+            num = int(self.sender().objectName()[7:8])
+        self.current_note_midi = (self.current_note[0] + 1) * 12 + self.current_note[1]
+        aeng.set_tune_note(self.current_note_midi)
+        self.currentNoteLabel.setText(str(Arrays.NOTE_NAMES[self.current_note[1]] + str(self.current_note[0])))
+        for x in self.btns_play_array:
+            x.setStyleSheet('')
+        self.btns_play_array[num - 1].\
+            setStyleSheet('QPushButton{background-color: #0f0;}')
 
     def start_stream(self):
         aeng.sd_stream_start()
@@ -193,26 +208,27 @@ class MainWindow(QMainWindow, mainform.Ui_MainWindow):
     def display_frequency(self, frequency_now):
 
         # detect nearest or selected tuning freq
-        selected_freq = 440.0
+        selected_freq = aeng.number_to_freq(self.current_note_midi)
 
-        # detect neighbour freqs
-        left, right = 415.305, 466.164
+        # detect neighbour frequencies
+        left, right = aeng.number_to_freq(self.current_note_midi - 1),\
+                      aeng.number_to_freq(self.current_note_midi + 1)
+
         if frequency_now != 0:
             difference = frequency_now - selected_freq
-            print('now: ' + str(frequency_now) + ' diff: ' + str(difference) + ' sign: ' + str(difference > 0))  #
-
             if difference <= 0:
                 difference = abs(difference)
                 tunebar_left_value = int((min(selected_freq - left, difference) / (selected_freq - left) * 90) + 10)
                 tunebar_right_value = 10
-                print(tunebar_left_value, tunebar_right_value)
             else:
                 tunebar_left_value = 10
                 tunebar_right_value = int((min(right - selected_freq, difference) / (right - selected_freq) * 90) + 10)
-                print(tunebar_left_value, tunebar_right_value)
             self.tuneBarLeft.setValue(tunebar_left_value)
             self.tuneBarRight.setValue(tunebar_right_value)
             self.tune_change_color()
+        else:
+            self.tuneBarLeft.setValue(self.tuneBarLeft.minimum())
+            self.tuneBarRight.setValue(self.tuneBarRight.minimum())
 
     def show_slider(self):
         self.test_mode = not self.test_mode
@@ -232,7 +248,6 @@ class MainWindow(QMainWindow, mainform.Ui_MainWindow):
     def tune_change_color(self):
         percentage = max(self.tuneBarLeft.value() * self.tuneBarLeft.maximum() / 100,
                          self.tuneBarRight.value() * self.tuneBarRight.maximum() / 100)
-        print(percentage)
         if percentage <= 15.0:
             add = 'QProgressBar::chunk{ \n  background: green;}\n'
         elif percentage <= 50.0:

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>623</width>
-    <height>271</height>
+    <width>501</width>
+    <height>302</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -66,24 +66,6 @@ border-top: 1px solid #dcdcdc;
     </property>
     <property name="text">
      <string>Start tuner</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>500</x>
-      <y>180</y>
-      <width>111</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>TextLabel</string>
     </property>
    </widget>
    <widget class="QGroupBox" name="instrumentBox">
@@ -176,48 +158,12 @@ border-top: 1px solid #dcdcdc;
      </font>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>500</x>
-      <y>200</y>
-      <width>91</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>TextLabel</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="btnNotePlayAll">
-    <property name="geometry">
-     <rect>
-      <x>490</x>
-      <y>100</y>
-      <width>51</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>‣</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="btnSettings">
     <property name="geometry">
      <rect>
-      <x>500</x>
-      <y>20</y>
-      <width>71</width>
+      <x>10</x>
+      <y>230</y>
+      <width>151</width>
       <height>21</height>
      </rect>
     </property>
@@ -257,7 +203,7 @@ border-top: 1px solid #dcdcdc;
       <x>170</x>
       <y>10</y>
       <width>321</width>
-      <height>211</height>
+      <height>241</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -323,7 +269,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>120</y>
+       <y>80</y>
        <width>51</width>
        <height>21</height>
       </rect>
@@ -355,7 +301,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>40</y>
+       <y>30</y>
        <width>51</width>
        <height>51</height>
       </rect>
@@ -394,7 +340,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>90</y>
+       <y>110</y>
        <width>51</width>
        <height>21</height>
       </rect>
@@ -412,7 +358,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>120</y>
+       <y>80</y>
        <width>51</width>
        <height>21</height>
       </rect>
@@ -428,7 +374,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>60</x>
-       <y>40</y>
+       <y>30</y>
        <width>51</width>
        <height>51</height>
       </rect>
@@ -483,7 +429,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>210</x>
-       <y>120</y>
+       <y>80</y>
        <width>51</width>
        <height>21</height>
       </rect>
@@ -499,7 +445,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>160</x>
-       <y>40</y>
+       <y>30</y>
        <width>51</width>
        <height>51</height>
       </rect>
@@ -538,7 +484,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>260</x>
-       <y>90</y>
+       <y>110</y>
        <width>51</width>
        <height>21</height>
       </rect>
@@ -556,7 +502,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>160</x>
-       <y>120</y>
+       <y>80</y>
        <width>51</width>
        <height>21</height>
       </rect>
@@ -572,7 +518,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>60</x>
-       <y>90</y>
+       <y>110</y>
        <width>51</width>
        <height>21</height>
       </rect>
@@ -590,7 +536,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>160</x>
-       <y>90</y>
+       <y>110</y>
        <width>51</width>
        <height>21</height>
       </rect>
@@ -640,7 +586,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>260</x>
-       <y>40</y>
+       <y>30</y>
        <width>51</width>
        <height>51</height>
       </rect>
@@ -679,7 +625,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>210</x>
-       <y>40</y>
+       <y>30</y>
        <width>51</width>
        <height>51</height>
       </rect>
@@ -718,7 +664,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>60</x>
-       <y>120</y>
+       <y>80</y>
        <width>51</width>
        <height>21</height>
       </rect>
@@ -734,7 +680,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>260</x>
-       <y>120</y>
+       <y>80</y>
        <width>51</width>
        <height>21</height>
       </rect>
@@ -750,7 +696,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>40</y>
+       <y>30</y>
        <width>51</width>
        <height>51</height>
       </rect>
@@ -844,7 +790,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>90</y>
+       <y>110</y>
        <width>51</width>
        <height>21</height>
       </rect>
@@ -854,6 +800,9 @@ QProgressBar {
        <pointsize>12</pointsize>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
      <property name="text">
       <string>‣</string>
      </property>
@@ -862,7 +811,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>210</x>
-       <y>90</y>
+       <y>110</y>
        <width>51</width>
        <height>21</height>
       </rect>
@@ -883,7 +832,7 @@ QProgressBar {
      <property name="geometry">
       <rect>
        <x>40</x>
-       <y>180</y>
+       <y>210</y>
        <width>241</width>
        <height>22</height>
       </rect>
@@ -901,6 +850,22 @@ QProgressBar {
       <enum>Qt::Horizontal</enum>
      </property>
     </widget>
+    <widget class="QLabel" name="currentNoteLabel">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>180</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string> </string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -908,7 +873,7 @@ QProgressBar {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>623</width>
+     <width>501</width>
      <height>21</height>
     </rect>
    </property>
