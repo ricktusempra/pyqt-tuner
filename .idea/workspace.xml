@@ -27,13 +27,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38d5be7a-448b-4d27-bbff-5be56d825347" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="38d5be7a-448b-4d27-bbff-5be56d825347" name="Default Changelist" comment="Ready project commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audio_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/audio_engine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainform.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainform.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainform.ui" beforeDir="false" afterPath="$PROJECT_DIR$/mainform.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +70,9 @@
       <module name="pyqt-gtr-tuner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -127,6 +126,14 @@
       <option name="presentableId" value="Default" />
       <updated>1606422966250</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ready project commit">
+      <created>1608219165218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608219165218</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +146,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ready project commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready project commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="233" key="#Inspections" timestamp="1607901374521">
@@ -205,6 +216,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="500" y="191" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1607270402487" />
+    <state x="552" y="287" key="Vcs.Push.Dialog.v2" timestamp="1608245472568">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="552" y="287" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1608245472568" />
     <state x="855" y="301" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1607534658650">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>

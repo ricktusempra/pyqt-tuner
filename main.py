@@ -111,7 +111,6 @@ class MainWindow(QMainWindow, mainform.Ui_MainWindow):
         self.current_note = (self.current_tune[0][0], self.current_tune[0][1])
         self.set_tune_note(1)
 
-
     def show_tuning_from_btns(self):
         for i in range(len(self.current_tune)):
             self.notes_array[i].setPlainText(Arrays.NOTE_NAMES[self.current_tune[i][1]])
@@ -181,7 +180,7 @@ class MainWindow(QMainWindow, mainform.Ui_MainWindow):
         self.currentNoteLabel.setText(str(Arrays.NOTE_NAMES[self.current_note[1]] + str(self.current_note[0])))
         for x in self.btns_play_array:
             x.setStyleSheet('')
-        self.btns_play_array[num - 1].\
+        self.btns_play_array[num - 1]. \
             setStyleSheet('QPushButton{background-color: #0f0;}')
 
     def start_stream(self):
@@ -211,8 +210,7 @@ class MainWindow(QMainWindow, mainform.Ui_MainWindow):
         selected_freq = aeng.number_to_freq(self.current_note_midi)
 
         # detect neighbour frequencies
-        left, right = aeng.number_to_freq(self.current_note_midi - 1),\
-                      aeng.number_to_freq(self.current_note_midi + 1)
+        left, right = aeng.number_to_freq(self.current_note_midi - 1), aeng.number_to_freq(self.current_note_midi + 1)
 
         if frequency_now != 0:
             difference = frequency_now - selected_freq
