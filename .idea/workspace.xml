@@ -27,7 +27,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38d5be7a-448b-4d27-bbff-5be56d825347" name="Default Changelist" comment="Final project commit">
+    <list default="true" id="38d5be7a-448b-4d27-bbff-5be56d825347" name="Default Changelist" comment="Readme update">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608396493572</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Readme update">
+      <created>1608397030738</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608397030738</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,7 +167,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ready project commit" />
     <MESSAGE value="Final project commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final project commit" />
+    <MESSAGE value="Readme update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="233" key="#Inspections" timestamp="1607901374521">
@@ -227,10 +235,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="500" y="191" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1607270402487" />
-    <state x="552" y="287" key="Vcs.Push.Dialog.v2" timestamp="1608396534651">
+    <state x="552" y="287" key="Vcs.Push.Dialog.v2" timestamp="1608397080903">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="552" y="287" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1608396534651" />
+    <state x="552" y="287" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1608397080903" />
     <state x="855" y="301" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1607534658650">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
