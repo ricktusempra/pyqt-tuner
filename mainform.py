@@ -311,6 +311,7 @@ class Ui_MainWindow(object):
         self.horizontalSlider.setObjectName("horizontalSlider")
         self.currentNoteLabel = QtWidgets.QLabel(self.frame)
         self.currentNoteLabel.setGeometry(QtCore.QRect(140, 180, 47, 13))
+        self.currentNoteLabel.setText("")
         self.currentNoteLabel.setAlignment(QtCore.Qt.AlignCenter)
         self.currentNoteLabel.setObjectName("currentNoteLabel")
         MainWindow.setCentralWidget(self.centralwidget)
@@ -363,4 +364,3 @@ class Ui_MainWindow(object):
         self.btnNote4Up.setText(_translate("MainWindow", "+"))
         self.btnNote1Play.setText(_translate("MainWindow", "‣"))
         self.btnNote5Play.setText(_translate("MainWindow", "‣"))
-        self.currentNoteLabel.setText(_translate("MainWindow", " "))

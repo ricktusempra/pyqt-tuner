@@ -29,7 +29,10 @@
   <component name="ChangeListManager">
     <list default="true" id="38d5be7a-448b-4d27-bbff-5be56d825347" name="Default Changelist" comment="Ready project commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainform.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainform.ui" beforeDir="false" afterPath="$PROJECT_DIR$/mainform.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +73,6 @@
       <module name="pyqt-gtr-tuner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -133,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608219165218</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ready project commit">
+      <created>1608245557855</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608245557855</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,22 +187,22 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="928" y="460" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1606698424105" />
-    <state width="1899" height="279" key="GridCell.Tab.0.bottom" timestamp="1608218557195">
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom" timestamp="1608393737132">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608218557195" />
-    <state width="1899" height="279" key="GridCell.Tab.0.center" timestamp="1608218557195">
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608393737132" />
+    <state width="1899" height="279" key="GridCell.Tab.0.center" timestamp="1608393737131">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608218557195" />
-    <state width="1899" height="279" key="GridCell.Tab.0.left" timestamp="1608218557195">
+    <state width="1899" height="279" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608393737131" />
+    <state width="1899" height="279" key="GridCell.Tab.0.left" timestamp="1608393737131">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608218557195" />
-    <state width="1899" height="279" key="GridCell.Tab.0.right" timestamp="1608218557195">
+    <state width="1899" height="279" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608393737131" />
+    <state width="1899" height="279" key="GridCell.Tab.0.right" timestamp="1608393737131">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608218557195" />
+    <state width="1899" height="279" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608393737131" />
     <state width="1896" height="350" key="GridCell.Tab.1.bottom" timestamp="1607960256678">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -216,18 +223,18 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="500" y="191" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1607270402487" />
-    <state x="552" y="287" key="Vcs.Push.Dialog.v2" timestamp="1608245472568">
+    <state x="552" y="287" key="Vcs.Push.Dialog.v2" timestamp="1608245565820">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="552" y="287" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1608245472568" />
+    <state x="552" y="287" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1608245565820" />
     <state x="855" y="301" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1607534658650">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="855" y="301" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.30.1920.1050@0.30.1920.1050" timestamp="1607534658650" />
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1607980995996">
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1608393423758">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1607980995996" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1608393423758" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

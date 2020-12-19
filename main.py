@@ -216,11 +216,11 @@ class MainWindow(QMainWindow, mainform.Ui_MainWindow):
             difference = frequency_now - selected_freq
             if difference <= 0:
                 difference = abs(difference)
-                tunebar_left_value = int((min(selected_freq - left, difference) / (selected_freq - left) * 90) + 10)
-                tunebar_right_value = 10
+                tunebar_left_value = int((min(selected_freq - left, difference) / (selected_freq - left) * 95) + 5)
+                tunebar_right_value = 5
             else:
-                tunebar_left_value = 10
-                tunebar_right_value = int((min(right - selected_freq, difference) / (right - selected_freq) * 90) + 10)
+                tunebar_left_value = 5
+                tunebar_right_value = int((min(right - selected_freq, difference) / (right - selected_freq) * 95) + 5)
             self.tuneBarLeft.setValue(tunebar_left_value)
             self.tuneBarRight.setValue(tunebar_right_value)
             self.tune_change_color()

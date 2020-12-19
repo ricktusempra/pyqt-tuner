@@ -860,7 +860,7 @@ QProgressBar {
       </rect>
      </property>
      <property name="text">
-      <string> </string>
+      <string/>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
